@@ -1,0 +1,37 @@
+[
+    {
+        "pen": 1,
+        "templates": [
+            {
+                "bits": [
+                    13
+                ],
+                "sub_pen": 0,
+                "url": "^https://webex.com/hello(\\d+)$"
+            },
+            {
+                "bits": [
+                    34,
+                    65,
+                    32
+                ],
+                "sub_pen": 1,
+                "url": "^https://webex.com/hello(\\d+)/world(\\d+)/(\\d+)$"
+            }
+        ]
+    },
+    {
+        "pen": 16777215,
+        "templates": [
+            {
+                "bits": [
+                    32,
+                    32,
+                    32
+                ],
+                "sub_pen": -1,
+                "url": "^https://webex.com/my(\\d+)/name(\\d+)/is(\\d+)$"
+            }
+        ]
+    }
+]
